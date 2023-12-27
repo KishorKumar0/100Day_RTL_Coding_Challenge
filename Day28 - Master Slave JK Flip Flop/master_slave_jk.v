@@ -36,7 +36,7 @@ endcase
 end
 endmodule
 
-module master_slave_jk(s,r,clk,qn,qn_bar,);
+module master_slave_jk(s,r,clk,qn,qn_bar);
 input s,r,clk;
 output qn,qn_bar;
 
