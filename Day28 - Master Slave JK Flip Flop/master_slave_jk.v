@@ -19,6 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+<<<<<<< HEAD
 module jk_ff(j,k,clk,q,q_bar);
 input j,k,clk;
 output  q,q_bar;
@@ -36,7 +37,7 @@ endcase
 end
 endmodule
 
-module master_slave_jk(s,r,clk,qn,qn_bar);
+module master_slave_jk(s,r,clk,qn,qn_bar,);
 input s,r,clk;
 output qn,qn_bar;
 
@@ -51,3 +52,5 @@ jk_ff Master(s,r,clk,mq,mq_bar);
 jk_ff Slave(mq,mq_bar,mclk,qn,qn_bar);
 
 endmodule
+
+=======
